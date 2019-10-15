@@ -1,4 +1,4 @@
-<mxfile modified="2019-10-15T18:49:33.846Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="-65-4cQ_YgMTOuJvq-l2" version="12.1.1" type="github" pages="2">
+<mxfile modified="2019-10-15T19:02:40.137Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="P78oLam5rcp7eaeB0lKL" version="12.1.1" type="github" pages="2">
   <diagram name="Splash Screen" id="MpTmrk33JpSv0d7EfuL-">
     <mxGraphModel dx="772" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -31,10 +31,19 @@
           <mxGeometry x="140" y="170" width="270" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="KP0_a5k5RD8sWP5Jd8MO-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;align=center;" parent="4PiA8mN9tsmujIbxWF_A-1" vertex="1">
-          <mxGeometry x="120" y="230" width="300" height="100" as="geometry"/>
+          <mxGeometry x="120" y="230" width="300" height="110" as="geometry"/>
         </mxCell>
-        <mxCell id="KP0_a5k5RD8sWP5Jd8MO-3" value="Select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;labelBackgroundColor=#FFFFFF;fontStyle=0" parent="4PiA8mN9tsmujIbxWF_A-1" vertex="1">
-          <mxGeometry x="130" y="220" width="60" height="20" as="geometry"/>
+        <mxCell id="KP0_a5k5RD8sWP5Jd8MO-3" value="Selection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;labelBackgroundColor=#FFFFFF;fontStyle=0" parent="4PiA8mN9tsmujIbxWF_A-1" vertex="1">
+          <mxGeometry x="139" y="220" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="zTdH1cTOjiv9APdb81AK-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-128.png;fontSize=15;fontColor=#FFFFFF;align=center;" vertex="1" parent="4PiA8mN9tsmujIbxWF_A-1">
+          <mxGeometry x="139" y="289" width="39" height="39" as="geometry"/>
+        </mxCell>
+        <mxCell id="zTdH1cTOjiv9APdb81AK-1" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px ; white-space: pre&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Select&amp;nbsp;your&amp;nbsp;first&amp;nbsp;day&amp;nbsp;of&amp;nbsp;last&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px ; white-space: pre&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;menstrual&amp;nbsp;period&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="4PiA8mN9tsmujIbxWF_A-1">
+          <mxGeometry x="130" y="239" width="280" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="zTdH1cTOjiv9APdb81AK-4" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;align=center;" vertex="1" parent="4PiA8mN9tsmujIbxWF_A-1">
+          <mxGeometry x="180" y="293" width="226" height="32" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
