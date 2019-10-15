@@ -1,4 +1,4 @@
-<mxfile modified="2019-10-15T20:12:16.837Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="JvvN61T-q4vvtBn3JSJ2" version="12.1.1" type="github" pages="2">
+<mxfile modified="2019-10-15T20:13:14.097Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="cTaMpi-Pr-TKomzzcVRm" version="12.1.1" type="github" pages="2">
   <diagram name="Splash Screen" id="MpTmrk33JpSv0d7EfuL-">
     <mxGraphModel dx="772" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -6,12 +6,6 @@
         <mxCell id="gMUrDQRkdvqj_06--GE--1" parent="gMUrDQRkdvqj_06--GE--0"/>
         <mxCell id="gMUrDQRkdvqj_06--GE--2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillColor=#f5f5f5;strokeColor=#666666;fontSize=23;fontColor=#333333;" parent="gMUrDQRkdvqj_06--GE--1" vertex="1">
           <mxGeometry x="100" y="110" width="340" height="600" as="geometry"/>
-        </mxCell>
-        <mxCell id="gMUrDQRkdvqj_06--GE--3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="gMUrDQRkdvqj_06--GE--1" vertex="1">
-          <mxGeometry x="127.5" y="145" width="185" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="gMUrDQRkdvqj_06--GE--4" value="Your Pregnancy Status" style="text;html=1;" parent="gMUrDQRkdvqj_06--GE--1" vertex="1">
-          <mxGeometry x="155" y="150" width="130" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
