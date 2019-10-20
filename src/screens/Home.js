@@ -10,47 +10,52 @@ const Home = () => {
 
     return(
         <>
-            <View style={[styles.fieldSet, styles.ca, styles.ph, styles.pb, styles.mt]}>
-                <Text style={[styles.legend, styles.ts]}>Selection</Text>
-                <Text style={[styles.ts, styles.mv]}>Select your first day of last menstrual period</Text>
-                <MyDatePicker minDate={minDate} date={date} currentDate={currentDate} onDateChange={newDate => setDate(newDate)} />
-            </View>
-
-            <View style={[styles.fieldSet, styles.p]}>
-                <Text style={[styles.legend, styles.ts]}>Prediction</Text>
-                <View style={styles.mvSm}>{
-                    dateDiffDay(date, currentDate) > 0 ? 
-                    <Text style={styles.ts}>Age in day: <Text style={{color:'#008000'}}>{dateDiffDay(date, currentDate)} days</Text></Text> 
-                    : <Text style={styles.ts}>Age in day: 0</Text>
-                }</View>
-
-                <View style={styles.mvSm}>{
-                    dateDiffDay(date, currentDate) > 0 ? 
-                    <Text style={styles.ts}>Age in week: <Text style={{color:'#0000FF'}}>{dateDiffWeek(date, currentDate)}</Text></Text>
-                    : <Text style={styles.ts}>Age in week: 0</Text>
-                }</View>
-
-                <View style={styles.mvSm}>{
-                    dateDiffDay(date, currentDate) > 0 ? 
-                    <Text style={styles.ts}>Age in month: <Text style={{color:'#A52A2A'}}>{dateDiffMonth(date, currentDate)}</Text></Text> 
-                    : <Text style={styles.ts}>Age in month: 0</Text>
-                }</View>
-
-                <View style={styles.mvSm}>
-                    <Text style={styles.ts}>Approximate delivery date: <Text style={{color:'#A52A2A'}}>{deliveryDate}</Text></Text>
+            <ScrollView showsVerticalScrollIndicator={false}>
+                <View style={[styles.fieldSet, styles.ca, styles.ph, styles.pb, styles.mt]}>
+                    <Text style={[styles.legend, styles.ts]}>Selection</Text>
+                    <Text style={[styles.ts, styles.mv]}>Select your first day of last menstrual period</Text>
+                    <MyDatePicker minDate={minDate} date={date} currentDate={currentDate} onDateChange={newDate => setDate(newDate)} />
                 </View>
 
-                <View style={[styles.mvSm]}>
-                    <Text style={[styles.ts, styles.textBold, {textAlign: 'center'}]}>Approximately <Text style={{color:'#ff0000'}}>{bornLeftDay} days or {bornLeftWeek} weeks</Text> left until your baby is born!</Text>
-                </View>
-            </View>
+                <View style={[styles.fieldSet, styles.p]}>
+                    <Text style={[styles.legend, styles.ts]}>Prediction</Text>
+                    <View style={styles.mvSm}>{
+                        dateDiffDay(date, currentDate) > 0 ? 
+                        <Text style={styles.ts}>Age in day: <Text style={{color:'#008000'}}>{dateDiffDay(date, currentDate)} days</Text></Text> 
+                        : <Text style={styles.ts}>Age in day: 0</Text>
+                    }</View>
 
-            <View style={styles.fieldSet}>
-                <Text style={[styles.legend, styles.ts]}>Your baby looks like</Text>
-                <View style={styles.mtSm}>
-                    <Image source={require('../../assets/splash_child.jpg')} style={{width: null, height: 200}} />
+                    <View style={styles.mvSm}>{
+                        dateDiffDay(date, currentDate) > 0 ? 
+                        <Text style={styles.ts}>Age in week: <Text style={{color:'#0000FF'}}>{dateDiffWeek(date, currentDate)}</Text></Text>
+                        : <Text style={styles.ts}>Age in week: 0</Text>
+                    }</View>
+
+                    <View style={styles.mvSm}>{
+                        dateDiffDay(date, currentDate) > 0 ? 
+                        <Text style={styles.ts}>Age in month: <Text style={{color:'#A52A2A'}}>{dateDiffMonth(date, currentDate)}</Text></Text> 
+                        : <Text style={styles.ts}>Age in month: 0</Text>
+                    }</View>
+
+                    <View style={styles.mvSm}>
+                        <Text style={styles.ts}>Approximate delivery date: <Text style={{color:'#A52A2A'}}>{deliveryDate}</Text></Text>
+                    </View>
+
+                    <View style={[styles.mvSm]}>
+                        <Text style={[styles.ts, styles.textBold, {textAlign: 'center'}]}>Approximately <Text style={{color:'#ff0000'}}>{bornLeftDay} days or {bornLeftWeek} weeks</Text> left until your baby is born!</Text>
+                    </View>
                 </View>
-            </View>
+
+                <View>
+                    <Text style={[styles.ts,{position: 'absolute', zIndex: 1, top:-1, left: 20,fontWeight: 'bold',backgroundColor: '#FFFFFF'}]}>Your baby looks like</Text>
+                    <View style={[styles.fieldSet, {overflow:'hidden'}]}>
+                        <View style={styles.mtSm}>
+                            <Image source={require('../../assets/splash_child.jpg')} style={{resizeMode: 'cover',width: null, height: 200}} />
+                        </View>
+                    </View>
+                </View>
+
+            </ScrollView>
         </>
     );
 };
