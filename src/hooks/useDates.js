@@ -48,7 +48,7 @@ export default () => {
         const weeks = Math.floor(diff);
         const days = Math.round((diff - weeks) * 7);
 
-        return `${weeks} weeks ${days} days`;
+        return [weeks, days];
     };
 
     const dateDiffMonth = (date1, date2) => {
