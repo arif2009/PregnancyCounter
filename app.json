@@ -2,12 +2,12 @@
   "expo": {
     "name": "Pregnancy Counter",
     "slug": "PregnancyCounter",
+    "description": "It will help pregnant woman, they can check their pregnancy status easily.",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,6 +25,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bloodconnector.pregnancy_counter",
+      "versionCode": 1
     }
   }
 }
